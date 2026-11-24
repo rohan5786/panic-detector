@@ -15,15 +15,6 @@ UNIVERSE = {
     "finance": ["JPM", "BAC", "WFC", "C", "GS",
                 "MS", "BLK", "SCHW", "AXP", "USB"],
 }
-
-UNIVERSE = {
-    "big_tech": ["AAPL", "MSFT", "NVDA", "GOOGL", "AMZN",
-                 "META", "AVGO", "ORCL", "AMD", "CRM"],
-    "defense_gov": ["LMT", "RTX", "NOC", "GD", "LHX",
-                    "BA", "HII", "LDOS", "TDG", "TXT"],
-    "finance": ["JPM", "BAC", "WFC", "C", "GS",
-                "MS", "BLK", "SCHW", "AXP", "USB"],
-}
 SECTOR_OF = {t: s for s, ts in UNIVERSE.items() for t in ts}
  
  
